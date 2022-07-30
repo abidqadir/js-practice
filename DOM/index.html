@@ -25,27 +25,40 @@
 
     <script>
         // getting refferences
-        const email = document.getElementById('email')  
+        const email = document.getElementById('email')
         const pass = document.getElementById('pass')
         const ul = document.getElementById('ul')
+        
         const btn = document.getElementById('btn')
-
-        // add the eventListner/button through arrow fucntion 
-        btn.addEventListener('click',()=> {
+        btn.addEventListener("click", ()=>{
             console.log(email.value)
             console.log(pass.value)
-        // creating new element through js [li]
-        const li = document.createElement('li')
-        //accessing inner the text through js
+         
+        const li =document.createElement('li')
+         
         li.innerText = email.value
+        ul.appendChild(li)
+
+        const x = document.createElement('li')
+        x.innerText=pass.value
+        ul.appendChild(x)
+
+
+
+        });
+        
+        // add the eventListner/button through arrow fucntion 
+       
+       
+        // creating new element through js [li]
+        
+
+        //accessing inner the text through js
+        
+
         // append the li into ul
-        ul.appendChild(li)   
+        
 
-         const a = document.createElement('li')
-         a.innerText= pass.value
-         ul.appendChild(a)
-
-        } )
 
         
         
