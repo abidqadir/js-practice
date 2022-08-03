@@ -159,24 +159,156 @@
 
 
 
-function calculator (a,b,c)
-{
-    if(c=="-"){
-        console.log(a-b)
-    }
-    else if (c == "+")
-    {
-        console.log(a+b)
 
-    }
-    if(c=="/"){console.log(a/b)}
+// function GreaterNumber (n1,n2,n3)
+// {
+// if (n1>n2 && n1 >n3)console.log( n1 +" greater no")
 
-    if(c=="*") console.log(a*b)
+// else if (n2>n1 && n2>n3)console.log( n2+ " greater no")
+
+// else if(n3>n1 && n3> n2) console.log(n3 +" greater no")
+ 
+
+// }
+
+// GreaterNumber(99,5,7)
+
+// function divisable(n1)
+// {
+//     if(n1/5 == 0 && n1/11==0) console.log("it is divisable")
+//     else
+//     {
+//         console.log("it's not")
+//     }
+
+// }
+
+// divisable(6)
+
+
+// function even_and_odd (n1)
+// {
+//  if (n1/2 == 0)console.log("Even")
+ 
+//  else
+//  {
+//     console.log("odd")
+
+// }
+
+
+// }
+
+// even_and_odd(2)
+
+ 
+// a = 0
+
+// for(a  of numbers)
+// {
+//     console.log(a)
+// }  
+// let a = [2,4,5,7]
+
+// let sum = 0
+// //  console.log(a[1])
+
+//    for (i = 0; i<a.length;i++)
+//    {
+//       sum+=a[i]
+      
+//    }
+//    console.log(sum)
+ 
+//  //console.log(sum)
+
+
+// function number(num)
+
+// {
+//    sum = 0
+//    {
+//    for (i=1;i<=num;i++)
+//    sum+=i
+//    }
+//    console.log(sum)
+
+// }
+// number(3)
+
+//  for (i=5;i>=0;i--)
+//  {
+//    console.log(i)
+//  }
+
+
+        
+// function sumArray(array) {
+ 
+//    if(!array || array.length==0)
+//    {
+//      return 0
+//      }
+  
+//    let smallest = array[0]; 
+//    let biggest = array[0];
+   
+   
+//    for (n1 of array)
+//      {
+//        if( n1 < smallest )
+//          {
+//            smallest = n1
+//          }
+//      }
+   
+//    for (n2 of array)
+//      {
+//        if (n2 > biggest)
+//          {
+//            biggest = n2
+//          }
+//      }
+   
+   
+//    let sum = 0
+   
+//    for (let i = 0; i < array.length; i++)
+//      {
+//        if(array[i]==smallest || array[i]==biggest){ 
+//          continue
+//        }
+//      else{
+//        sum +=array[i] 
+//      }
+       
+//      }
+//   return sum
+//  }
+
+//    console.log(sumArray([ 1, 6, 10, 10 ]))
+
+// function solution(str){
+//    let New = " "
+//    for ( let i = str.length-1;i>0;i-- )
+//    {
+//    New +=str[i]   
+//    }
+   
+//  }
+//  solution(hello)
+
+function reverseString(str) {
+   
+   var newString = "";
+
+  
+   for (var i = str.length - 1; i >= 0; i--) 
+   { 
+       newString += str[i];
+   }
+   return newString
+ 
 }
-
-calculator(2,0,"/")
-
-
-
-
-
+let reverse =  reverseString("car")
+console.log(reverse)
