@@ -315,19 +315,28 @@
 
 
 
-function arr (a)
-{
-    if (!a || a.length==0) {return ''}
-j = " "
-    for (i of a)
-    {
-        j+=i+" " ;
+// function arr (a)
+// {
+//     if (!a || a.length==0) {return ''}
+// j = " "
+//     for (i of a)
+//     {
+//         j+=i+" " ;
         
-    }
-    j = j .trim()
+//     }
+//     j = j .trim()
     
-    return j
+//     return j
  
-}
- console.log(arr(["a","bvcs","wwe"]))
+// }
+//  console.log(arr(["a","bvcs","wwe"]))
 
+function booleanToString(b){
+  
+    if (b){
+      return 'true'
+    } 
+   else {
+     return 'false'
+   }
+   }
