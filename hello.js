@@ -298,17 +298,36 @@
 //  }
 //  solution(hello)
 
-function reverseString(str) {
+// function reverseString(str) {
    
-   var newString = "";
+//    var newString = "";
 
   
-   for (var i = str.length - 1; i >= 0; i--) 
-   { 
-       newString += str[i];
-   }
-   return newString
+//    for (var i = str.length - 1; i >= 0; i--) 
+//    { 
+//        newString += str[i];
+//    }
+//    return newString
+ 
+// }
+// let reverse =  reverseString("car")
+// console.log(reverse)
+
+
+
+function arr (a)
+{
+    if (!a || a.length==0) {return ''}
+j = " "
+    for (i of a)
+    {
+        j+=i+" " ;
+        
+    }
+    j = j .trim()
+    
+    return j
  
 }
-let reverse =  reverseString("car")
-console.log(reverse)
+ console.log(arr(["a","bvcs","wwe"]))
+
