@@ -223,17 +223,6 @@
 //  //console.log(sum)
 
 
-// function number(num)
-
-// {
-//    sum = 0
-//    {
-//    for (i=1;i<=num;i++)
-//    sum+=i
-//    }
-//    console.log(sum)
-
-// }
 // number(3)
 
 //  for (i=5;i>=0;i--)
@@ -331,12 +320,32 @@
 // }
 //  console.log(arr(["a","bvcs","wwe"]))
 
-function booleanToString(b){
+// function booleanToString(b){
   
-    if (b){
-      return 'true'
-    } 
-   else {
-     return 'false'
+//     if (b){
+//       return 'true'
+//     } 
+//    else {
+//      return 'false'
+//    }
+//    }
+
+// function lovefunc(flower1, flower2){
+  
+//     return flower1 % 2 !== flower2 % 2
+//   }
+
+
+function find_average(array) {
+    if (!array || array == 0){return 0}
+     let sum = 0
+     let total = 0
+     
+     for (sum= 0;sum<array.length;sum++)
+     {
+     total += array[sum]  
+     }   
+     total = total / array.length
+     return total;
    }
-   }
+   
