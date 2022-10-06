@@ -367,3 +367,4 @@
       total = total / array.length
      return total;
     }
+vxcvxcvxcvxcvxcvxcvxcvxcxcs
