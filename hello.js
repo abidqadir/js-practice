@@ -351,20 +351,20 @@
    
 //function number()
 //{
-  return - number
+ // return - number
 //}
 //number(6)
 
-
- function find_average(array) {
-    if (!array || array == 0){return 0}
-      let sum = 0
-      let total = 0
-     /      for (sum= 0;sum<array.length;sum++)
-      {
-      total += array[sum]  
-      }   
-      total = total / array.length
-     return total;
-    }
-vxcvxcvxcvxcvxcvxcvxcvxcxcs
+//
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
+console.log("hello world")
