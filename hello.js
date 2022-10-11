@@ -355,16 +355,13 @@
 //}
 //number(6)
 
-//
-console.log("hello world")
-console.log("hello world")
-console.log("hello world")
-console.log("hello world")
-console.log("hello world")
-console.log("hello world")
-console.log("hello world")
-console.log("hello world")
-console.log("hello world")
-console.log("hello world")
-console.log("hello world")
-console.log("hello world")
+function calculator ()
+{
+  let a 
+  let b
+  for (a=0; a <=11; )
+  {
+    a*b
+  }
+
+}
