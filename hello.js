@@ -355,13 +355,5 @@
 //}
 //number(6)
 
-function calculator ()
-{
-  let a 
-  let b
-  for (a=0; a <=11; )
-  {
-    a*b
-  }
 
-}
+console.log("hello")
